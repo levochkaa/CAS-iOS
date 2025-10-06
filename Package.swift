@@ -55,10 +55,6 @@ let package = Package(
             targets: ["CASMediationUnityAdsTarget"]
         ),
         .library(
-            name: "CASMediationHyprMX",
-            targets: ["CASMediationHyprMXTarget"]
-        ),
-        .library(
             name: "CASMediationKidoz",
             targets: ["CASMediationKidozTarget"]
         ),
@@ -283,22 +279,6 @@ let package = Package(
             path: "Adapters/AudienceNetwork"
         ),
 
-        .target(
-            name: "HyprMXSPMTarget",
-            dependencies: [
-                .target(name: "HyprMXSPM")
-            ],
-            path: "SPMSources/HyprMXSPMTarget"
-        ),
-        .target(
-            name: "CASMediationHyprMXTarget",
-            dependencies: [
-                .target(name: "CASMediationHyprMX"),
-                .target(name: "HyprMXSPMTarget"),
-                .target(name: "CASBaseResources")                
-            ],
-            path: "Adapters/HyprMX"
-        ),
         .target(
             name: "KidozSPMTarget",
             dependencies: [
