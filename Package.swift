@@ -528,17 +528,6 @@ let package = Package(
         ),
         
         .binaryTarget(
-            name: "HyprMXSPM",
-            url: "https://s3.amazonaws.com/cocoapods-files/HyprMX/6.4.3/HyprMX_iOS_v6-4-3.zip",
-            checksum: "c2c67e12607f01532b608690743e39f1d747b6d92eccf56d3d41085e14393f99"
-        ),
-        .binaryTarget(
-            name: "CASMediationHyprMX",
-            url: "https://github.com/cleveradssolutions/CAS-iOS/releases/download/4.2.1/CASMediationHyprMX-6.4.3.0.zip",
-            checksum: "ede6b8d272fc8845745e1811804746fb15b3c29d80da792d05a77c5b96395614"
-        ),
-        
-        .binaryTarget(
             name: "KidozSPM",
             url: "https://github.com/Kidoz-SDK/kidoz-ios-frameworks/raw/main/KidozSDK/10.0.3/KidozSDK-10.0.3.zip",
             checksum: "39f86c116b28b3c036293e9a1a16b321ea3af73698179a8b7cbc37f91b44a7cc"
